@@ -5,21 +5,21 @@
 class Rdhpf < Formula
   desc "Automatically forward published container ports from a remote Docker host to localhost via SSH"
   homepage "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.4/remote-docker-host-port-forwarder_0.1.4_Darwin_x86_64.tar.gz"
-      sha256 "8e6a619ca8753a8d0762945b3b54e35d8a3f64c9d84b14b36982a4593e4119bd"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.5/remote-docker-host-port-forwarder_0.1.5_Darwin_x86_64.tar.gz"
+      sha256 "6fb51bde45a2db4bf8073b61c2daffd98ad74626af636150493d6e173a3e4f28"
 
       def install
         bin.install "rdhpf"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.4/remote-docker-host-port-forwarder_0.1.4_Darwin_arm64.tar.gz"
-      sha256 "061cb9c8395b26ea6f5c59edbec32d515e1795085bf1251f816c6ced209ed8e0"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.5/remote-docker-host-port-forwarder_0.1.5_Darwin_arm64.tar.gz"
+      sha256 "f228a9aa3a7316c64b68aadf9cabf2adf00e760c6242708c8f31224f05389702"
 
       def install
         bin.install "rdhpf"
@@ -29,15 +29,15 @@ class Rdhpf < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.4/remote-docker-host-port-forwarder_0.1.4_Linux_x86_64.tar.gz"
-      sha256 "fae85a2f27864817be5555a75bfcef7b6ea1c9532087a12dcb7f89ce61fcbbe2"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.5/remote-docker-host-port-forwarder_0.1.5_Linux_x86_64.tar.gz"
+      sha256 "9a9f6a78854d6f15660d68eb2aceb21d20826c9fe64a4736775fc8b3f4064901"
       def install
         bin.install "rdhpf"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.4/remote-docker-host-port-forwarder_0.1.4_Linux_arm64.tar.gz"
-      sha256 "fe043d8539b0df16dba7b2494e13233ceb2692bf6ba37961e6ea15cb9d179617"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.1.5/remote-docker-host-port-forwarder_0.1.5_Linux_arm64.tar.gz"
+      sha256 "bc093620c4df35d7e74d0c7e88a2f4ee765816de7bd7c80be81c2fc9de18bd29"
       def install
         bin.install "rdhpf"
       end
