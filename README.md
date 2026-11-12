@@ -33,6 +33,8 @@ that the cask is installed and the version command works.
 
 If automatic migration is unavailable, follow the explicit migration procedure
 in the [Homebrew guide](https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/blob/v0.2.0/docs/homebrew.md#migrating-from-the-formula).
+For the legacy formula, substitute `remote-docker-host-port-forwarder` for `rdhpf`
+in the formula uninstall command only. Keep `rdhpf` in the cask install command.
 
 ## Publishing
 
