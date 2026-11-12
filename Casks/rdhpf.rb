@@ -24,7 +24,7 @@ cask "rdhpf" do
   end
 
   name "rdhpf"
-  desc "Automatically forward published container ports from a remote Docker host to localhost via SSH"
+  desc "Forward remote Docker container ports to localhost over SSH"
   homepage "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder"
 
   livecheck do
@@ -33,5 +33,5 @@ cask "rdhpf" do
 
   binary "rdhpf"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -1,6 +1,6 @@
 # Remote Docker Host Port Forwarder — Homebrew tap
 
-Install the Linux/macOS binary cask with a current Homebrew:
+Install the Linux/macOS binary cask with Homebrew 7.0.11 or newer:
 
 ```sh
 brew install --cask tomaszpeksa/tap/rdhpf
