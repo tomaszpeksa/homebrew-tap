@@ -4,28 +4,28 @@
 class Rdhpf < Formula
   desc "Forward remote Docker container ports to localhost over SSH"
   homepage "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.0/remote-docker-host-port-forwarder_0.2.0_Darwin_arm64.tar.gz"
-      sha256 "2ba8bc43ced2e8d17e1d519f2008cfd0d6e7ae6d69986df5188d0a3facaa4c88"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.1/remote-docker-host-port-forwarder_0.2.1_Darwin_arm64.tar.gz"
+      sha256 "5b4119e47491e96107e1737a8c6397b62dcd2840c5be3b9129d7db86beb4be50"
     end
     on_intel do
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.0/remote-docker-host-port-forwarder_0.2.0_Darwin_x86_64.tar.gz"
-      sha256 "a453da2fdb988ac56b1133d4e9a5e5fbaae921e8ad97787d6041e9e26ac200a0"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.1/remote-docker-host-port-forwarder_0.2.1_Darwin_x86_64.tar.gz"
+      sha256 "74478fa2f077edae83ba368a460d20cf21af11222cc55621fc7aa5110c7e4a9f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.0/remote-docker-host-port-forwarder_0.2.0_Linux_arm64.tar.gz"
-      sha256 "f950be0dae15341e7bbe2be0a4c9e3b9f42e7156d4432c3b9949eb2030397aa1"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.1/remote-docker-host-port-forwarder_0.2.1_Linux_arm64.tar.gz"
+      sha256 "ca035f3b145749b776d98763d708ac45779a20ac16a7ffc26e5b9acfbfcf73d2"
     end
     on_intel do
-      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.0/remote-docker-host-port-forwarder_0.2.0_Linux_x86_64.tar.gz"
-      sha256 "7f29cd387c75aa5b608cda343caa9e581d327038b614e24988fd7a0ba20246fc"
+      url "https://github.com/tomaszpeksa/remote-docker-host-port-forwarder/releases/download/v0.2.1/remote-docker-host-port-forwarder_0.2.1_Linux_x86_64.tar.gz"
+      sha256 "bb89c77d5276d167f81165d2f5182f9d6c703a70ef4df95279ed88655e74e544"
     end
   end
 
